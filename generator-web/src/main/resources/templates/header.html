@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>${(value.title)!!}</title>
+<meta name="keywords" content="${(value.keywords)!!}">
+
+
+
+<#if value.mode=='local'>
+    <#include "/header-local.html">
+<#else>
+    <#include "/header-CDN.html">
+</#if>
+

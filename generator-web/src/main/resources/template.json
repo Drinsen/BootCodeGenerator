@@ -1,0 +1,95 @@
+[{
+  "group": "ui",
+  "templates": [{
+    "id": "10",
+    "name": "swagger-ui",
+    "description": "swagger-ui"
+  }
+  ]
+},
+  {
+    "group": "api_project",
+    "templates": [{
+      "id": "20",
+      "name": "api_controller",
+      "description": "api_controller"
+    },
+      {
+        "id": "21",
+        "name": "api_service",
+        "description": "api_service"
+      },
+      {
+        "id": "22",
+        "name": "api_serviceImpl",
+        "description": "api_serviceImpl"
+      },
+      {
+        "id": "23",
+        "name": "api_vo",
+        "description": "api_vo"
+      }
+    ]
+  },
+
+  {
+    "group": "rpc_project",
+    "templates": [
+      {
+        "id": "58",
+        "name": "rpc_facade",
+        "description": "rpc_facade"
+      },
+      {
+        "id": "59",
+        "name": "rpc_facadeImpl",
+        "description": "rpc_facadeImpl"
+      },
+      {
+        "id": "60",
+        "name": "rpc_serviceImpl",
+        "description": "rpc_serviceImpl"
+      },
+      {
+        "id": "61",
+        "name": "rpc_service",
+        "description": "rpc_service"
+      },
+      {
+        "id": "62",
+        "name": "rpc_mapper",
+        "description": "rpc_mapper"
+      },
+      {
+        "id": "63",
+        "name": "rpc_entity",
+        "description": "rpc_entity"
+      },
+      {
+        "id": "64",
+        "name": "rpc_dto",
+        "description": "rpc_convert"
+      },
+      {
+        "id": "66",
+        "name": "rpc_convert",
+        "description": "rpc_convert"
+      }
+    ]
+  },
+
+  {
+    "group": "util",
+    "templates": [{
+      "id": "70",
+      "name": "beanutil",
+      "description": "beanutil"
+    },
+      {
+        "id": "71",
+        "name": "json",
+        "description": "json"
+      }
+    ]
+  }
+]
